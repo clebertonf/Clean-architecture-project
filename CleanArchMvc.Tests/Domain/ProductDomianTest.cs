@@ -81,12 +81,11 @@ namespace CleanArchMvc.Tests.Domain
         }
 
         [Fact]
-        public void CreateProduct_WithEmptyImage_ResultException()
+        public void CreateProduct_WithNullImage_NotResultException()
         {
-            Action action = () => new Product(2, "Product 3", "Description teste", 10, 5, string.Empty);
+            Action action = () => new Product(2, "Product 3", "Description teste", 10, 5, null);
             action.Should()
-                  .ThrowExactly<DomainExceptionValidation>()
-                  .WithMessage("Image is required!");
+                  .NotThrow<NullReferenceException>();
         }
 
         [Fact]
