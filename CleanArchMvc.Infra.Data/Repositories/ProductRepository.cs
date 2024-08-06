@@ -29,7 +29,8 @@ namespace CleanArchMvc.Infra.Data.Repositories
 
         public async Task<Product> GetProductCategoryAsync(int? id)
         {
-            return await _applicationDbContext.Products.FindAsync(id);
+            return await _applicationDbContext.Products.Include(category => category.CategoryId)
+                                                       .SingleOrDefaultAsync(product => product.Id.Equals(id));
         }
 
         public async Task<IEnumerable<Product>> GetProductsAsync()
@@ -44,7 +45,7 @@ namespace CleanArchMvc.Infra.Data.Repositories
             return product;
         }
 
-        public async Task<Product> UpdateeAsync(Product product)
+        public async Task<Product> UpdateAsync(Product product)
         {
             _applicationDbContext.Products.Update(product);
             await _applicationDbContext.SaveChangesAsync();
