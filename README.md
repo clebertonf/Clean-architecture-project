@@ -6,3 +6,6 @@ Project with clean architecture concepts.
 - Infra.Ioc
 - Tests
 - WebUI
+---
+- AutoMapper
+- CQRS
