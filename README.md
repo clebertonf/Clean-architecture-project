@@ -11,3 +11,4 @@ Project with clean architecture concepts.
 - CQRS
 - EF core
 - Repository pattern
+- DTOs
