@@ -9,3 +9,5 @@ Project with clean architecture concepts.
 ---
 - AutoMapper
 - CQRS
+- EF core
+- Repository pattern
