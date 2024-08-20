@@ -12,3 +12,4 @@ Project with clean architecture concepts.
 - EF core
 - Repository pattern
 - DTOs
+- Unit Tests
