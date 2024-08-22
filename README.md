@@ -4,7 +4,7 @@ Project with clean architecture concepts.
 - Domain
 - Infra.Data
 - Infra.Ioc
-- Tests
+- Tests (Xunit, FluentAssertions)
 - WebUI
 ---
 - AutoMapper
