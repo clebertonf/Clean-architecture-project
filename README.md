@@ -13,3 +13,5 @@ Project with clean architecture concepts.
 - Repository pattern
 - DTOs
 - Unit Tests
+- View Models
+- Input Models
