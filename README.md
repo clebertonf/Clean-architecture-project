@@ -1,4 +1,4 @@
-# CleanArchMvc
+# Clean Architecture Mvc
 Project with clean architecture concepts.
 - Application
 - Domain
