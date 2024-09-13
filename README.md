@@ -1,5 +1,5 @@
 # Clean Architecture Mvc
-Project with clean architecture concepts.
+Project clean architecture:
 - Application
 - Domain
 - Infra.Data
