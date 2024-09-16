@@ -13,5 +13,3 @@ Project clean architecture:
 - Repository pattern
 - DTOs
 - Unit Tests
-- View Models
-- Input Models
