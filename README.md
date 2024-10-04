@@ -13,3 +13,6 @@ Project clean architecture:
 - Repository pattern
 - DTOs
 - Unit Tests
+
+  ---
+Core, Infrastructure, Application, API
